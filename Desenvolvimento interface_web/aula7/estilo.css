@@ -1,0 +1,83 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#053350 ;
+}
+.container{
+    max-width: 1024px;
+    width: 80%;
+    margin: 20px auto;
+}
+header{
+    height: 60px;
+    background-color: #053350;
+    position: relative;
+}
+.logo{
+    margin: 5px 20px;
+}
+nav{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #d7d5cd;
+}
+
+.subtitulo{
+    text-align: center;
+
+}
+.nadador{
+    width: 100%;
+}
+
+.avisos {
+    background-color: #053350;
+    color: white;
+}
+
+.avisos h2, horarios h2{
+    margin-top: 80px;
+    font-size: 2em;
+    padding: 20px 0 0 20px;
+}
+
+.avisos ul li{
+    font-size: 1.5em;
+    line-height: 2;
+    padding: 10px 20px;
+
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid #053350;
+    width: 80%;
+    margin: auto;
+}
+
+td{
+    border: 1px solid #053350;
+    padding: 10px;
+
+}
+thead tr{
+    border-bottom: 3px solid red;
+}
+tbody tr:hover{
+    background-color: aquamarine;
+}

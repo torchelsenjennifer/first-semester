@@ -1,0 +1,109 @@
+
+***************EXEMPLO 1*******************************************
+
+script>
+// prompt() é um comando para entrada de dados
+const nome = prompt("Nome:")
+
+//alert() é um comando para saída de dados
+alert("Olá, " + nome + "!")
+</script>
+
+
+**************EXEMPLO 2*********************************************
+
+<script>
+// ler nome e idade de um aluno
+const nome = prompt("Nome do Aluno: ")
+const idade = prompt("Idade: ")
+
+//exiba os dados
+alert(nome + " você possui " + idade + " anos!")
+</script>
+
+************* EXEMPLO 3 *********************************************
+
+<script>
+// ENTRADA DE DADOS
+const num = prompt("Número: ")
+
+//PROCESSAMENTO
+const dobro = num * 2
+
+//SAÍDA
+alert("Dobro é: " + dobro)
+</script>
+
+*************EXEMPLO 4 *******************************************
+
+// OUTRO MODO DE SAÍDA DE DADOS
+alert('Dobro é: ${dobro}')
+
+*************EXEMPLO 5 *************************************
+
+// STRING SIGNIFICA TEXTO
+// "20"=> Texto
+// 20 => Número
+//Converter um texto em número
+const num = Number(prompt("Numero: ")) 
+
+************Exercicio 6*************************************
+-Ler 2 números
+-Calcular e apresentar a soma deles
+
+<script>
+//ENTRADA
+const a = Number(prompt("1º Número: "))
+const b = Number(prompt("2º Número: "))
+
+//Processamento
+const soma = a + b
+
+// saída de dados
+alert("Soma: " +soma)
+//alert('Soma: ${soma}')
+</script>
+
+*************Exercicio 7*************************************
+-Ler produto e preço de custo
+-Calcuar e exibir o preço de venda, com 20% acrescimo
+
+//entrada de dados
+<script>
+const produto = prompt("Produto")
+const preco = Number (prompt("Preço de Custo R$:"))
+
+//Processamento
+const venda = preco + (preco * 0.20)
+const venda = preco * 1.20
+
+//20/100 =>0.20
+//preco + (preco * 0.20) aumentar 20%
+//preco * 1.20 (1+ 0.20)
+
+//10/100 => 0.10
+//preco - (preco * 0.10) diminuir 20%
+// preco * 0.90 (1-0.10)
+
+// Sáida
+alert("Preço de Venda R$: " + venda)
+//.toFixed(2) => exibe duas casas decimais
+// alert("Preço de Venda R$: " + venda.toFixed(2)) 
+
+</script>
+
+****************Exercicio 8**********************************
+-Ler modelo e preço de um veículo
+-Calcular a entrada(50%) e saldo em 12x
+- Modelo= Fiesta  Preço= 24.000 Entrada 12000 + 12x de 1000
+<script>
+const modelo = prompt("Modelo de Veículos: ")
+const preco = Number(prompt("Preço R$:"))
+
+const entrada = preco * 0.50
+const parcela = (preco - entrada) / 12
+
+alert("Entrada de R$: " + entrada.toFixed(2))
+alert("+ 12x de R$: " + parcela)
+
+</script>

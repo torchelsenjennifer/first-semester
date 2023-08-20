@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:visited {
+  color: green;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: orangered;
+}
+
+.navbar-light .navbar-brand:active {
+  color: blue;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    padding: 1px 15px;
+}
+
+.bg-white {
+    background-color: #fff;
+}

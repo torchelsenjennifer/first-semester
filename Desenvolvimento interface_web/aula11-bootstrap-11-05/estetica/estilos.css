@@ -1,0 +1,10 @@
+.fundo-gradiente {
+    background: rgb(95,20,170);
+    background: linear-gradient(90deg, rgba(95,20,170,1) 31%, rgba(116,9,121,1) 60%, rgba(157,9,139,1) 91%);
+}
+
+.btn-violeta {
+    text-transform: uppercase;
+    background-color: #ca0763;
+    color: white;
+}

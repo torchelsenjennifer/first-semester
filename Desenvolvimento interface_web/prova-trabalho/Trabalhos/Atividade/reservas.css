@@ -1,0 +1,146 @@
+header {
+    background: #3b3305;
+    padding: 20px 0;
+  }
+  
+  .caixa {
+    position: relative;
+    width: 1120px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .caixa h1 img {
+    max-width: 200px;
+    max-height: 150px;
+    height: auto;
+    width: auto;
+  }
+  
+  .home {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    top: 50%;
+  }
+  
+  .home li {
+    display: inline;
+    margin: 0 50px 0px 55px;
+  }
+  
+  .home li a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Brush Script MT, cursive;
+  }
+  .home a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .banner img {
+    width: 98.7vw;
+    background-size: cover;
+    display: block;
+    }
+  
+  
+  
+  
+    .formularios {
+      display: flex;
+      justify-content: center;
+      margin-top: 45px;
+      border-color: #000000;
+  }
+  
+  input {
+      padding: 10px;
+      margin: 10px;
+      width: 100%;
+  }
+  
+  form {
+      display: flex;
+      color: #000000;
+      border: 5px solid #000000;
+      border-radius: 40px;
+      margin-bottom: 40px;
+  }
+  
+  input::placeholder {
+      color: #000000;
+  }
+  
+  #inputCidade,
+  #inputAno {
+      padding: 10px;
+      margin: 10px;
+      width: 100%;
+      color: #000000;
+  }
+  
+  #btnradio1,
+  #btnradio2 {
+      margin: 30px 10px;
+      width: auto;
+  }
+  
+  #checkbox {
+      width: auto;
+  }
+  
+  .btn-contratar {
+      color: white;
+      background-color: #000000;
+      padding: 8px;
+  }
+  
+  @media screen and (max-width: 620px) {
+      .btn-contratar {
+          margin: 10px 0;
+      }
+  }
+  
+  .bloco1,
+  .bloco2 {
+      margin: 0 20px;
+  }
+  
+  .bloco1 h2, .bloco2 h2 {
+    margin-bottom: 15px;
+  }
+  
+  @media screen and (max-width: 480px) {
+      form {
+          border: none;
+      }
+      bloco1,
+      bloco2 {
+          margin: auto 0;
+      }
+  }
+  
+  footer img {
+    max-width: 200px;
+    max-height: 150px;
+    height: auto;
+    width: auto;
+    margin-top: 30px;
+  }
+  
+  footer {
+  text-align: center;
+  background: url("img/bg.jpg");
+  padding: 40px 0px ;
+  }
+  
+  .copyright{
+  color: #000000;
+  font-size: 17px;
+  margin-top: 20px;
+  }

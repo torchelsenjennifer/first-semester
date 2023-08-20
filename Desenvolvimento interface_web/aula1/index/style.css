@@ -1,0 +1,31 @@
+
+h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+   
+}
+h2{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin: 25px;
+}
+.ordem
+{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    
+    font-size: 30px;
+    margin-right: 50px;
+    margin: 75px;
+    padding-right: 100px;
+}
+a{text-decoration: none;}
+body{
+    background-image:url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;}
+   

@@ -1,0 +1,125 @@
+header {
+    background: #573303;
+    padding: 20px 0;
+  }
+  
+  .caixa {
+    position: relative;
+    width: 1120px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .caixa h1 img {
+    max-width: 200px;
+    max-height: 150px;
+    height: auto;
+    width: auto;
+  }
+  
+  .home {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    top: 50%;
+  }
+  
+  .home li {
+    display: inline;
+    margin: 0 0 0 55px;
+  }
+  
+  .home li a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Brush Script MT, cursive;
+  }
+  
+  .home a:hover {
+    color: #026380;
+    text-decoration: underline;
+  }
+  
+  .banner img {
+    width: 98.7vw;
+    background-size: cover;
+    display: block;
+    }
+  
+  
+  .logo{
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  
+  .tabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .tabela thead {
+      background-color:#4b3907;
+      color: white;
+  }
+  
+  
+  .tabela thead tr th {
+    vertical-align: middle;
+    line-height: 35px;
+    font-size: 18px;
+  }
+  
+  .tabela tbody tr td{
+    line-height: 5px;
+  }
+  
+  tbody tr td{
+   padding: 20px;
+  }
+  
+  tbody tr:hover{
+    background-color: #d7d7d7;
+  }
+  
+  tr:nth-child(even){
+    background-color: #cccccc;
+  }
+  
+  tfoot td{
+    padding-top: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  footer img {
+    max-width: 200px;
+    max-height: 150px;
+    height: auto;
+    width: auto;
+    margin-top: 30px;
+  }
+  
+  footer {
+  text-align: center;
+  background: url("img/bg.jpg");
+  padding: 40px 0px ;
+  }
+  
+  .copyright{
+  color: #000000;
+  font-size: 17px;
+  margin-top: 20px;
+  }

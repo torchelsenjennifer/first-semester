@@ -1,0 +1,28 @@
+.fundo {
+    background-image: url(imagens/sala.jpg);
+     background-size: cover; /* nao faz a imagem repetir */
+    min-height: 520px;
+    position: relative;
+}
+
+ .fundo2 {  /*imagem do fundo da página */
+    background-color: rgba(11, 56, 97, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.bg-odonto {
+    background-color: blueviolet;
+}
+
+/* classe referente ao deslocamento da página */
+.m-menu {
+    margin-bottom: 80px;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px #f00;
+    opacity: 0.9;
+    margin-bottom: 4px;
+}

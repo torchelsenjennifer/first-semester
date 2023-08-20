@@ -1,0 +1,13 @@
+body {
+  margin: 12px;
+}
+pre {
+  font-size: 1.3em;
+}
+
+#outAprovados {
+  color: blue;
+}
+#outReprovados {
+  color: red;
+}

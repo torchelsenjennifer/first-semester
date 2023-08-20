@@ -1,0 +1,60 @@
+/* quando o arquivo esta com uma bolinha, significa que o arquivo nao foi salvo */
+p{
+    color: #333;
+}
+*{/* se eu colococar asterisco *, toda pagina fica nessa fonte */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+/* rgb = quanto eu vou ter de cada = 000  */
+header, article{
+    margin: 10px;
+    margin-right: 10px;
+}
+img{
+    float: left;
+}
+.diferente{
+    /* ponto na frente para indicar a classe */
+    font-size: italic;
+    text-transform: uppercase;
+}
+nav ul{ 
+    /* espaço significa herdeiro, se colocar > é filho */
+    background-color:grey;
+    list-style: none;
+    margin: 0;
+    padding:0 ;
+    text-align: right;
+}
+nav ul li{
+    display: inline;
+    /* ao lado */
+}
+nav ul li a{
+    /* essa estilazação */
+    padding: 10px;
+    display: inline-block;
+    background-color: #ededed;
+    border-bottom: 3px solid #ededed;
+}
+
+nav ul li a:hover{
+    /* passar o mouse */
+    background-color: blueviolet;
+    color: #6d6d6d;
+    border-bottom: 3px solid #f00  ;
+}
+table{
+    /* border: 1px solid #000; */
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th, tr, td{
+    border: 1px solid #000;
+    padding: 10px;
+}

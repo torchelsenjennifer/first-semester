@@ -1,0 +1,48 @@
+body{
+    background-color: azure;
+}
+
+body p{
+    color: red;
+
+}
+header img#logo2{
+    display: none;
+}
+
+article{
+    width: 100%;
+}
+article img{
+    width: 80%;
+}
+
+/* media queries  */
+/* para telas menores(com resolução de no máximo) 900px */
+@media screen and (max-width: 900px) {
+    body{
+        background-color: khaki;
+    }
+
+    header img#logo1{
+        display: none;
+    }
+    header img#logo2{
+        display: inline;
+    }
+}
+@media screen  and (max-width: 480px) {
+    body{
+     background-color: teal;   
+     color: white;     
+    }
+
+    header img#logo1{
+    display: none;
+    }
+    header img#logo2{
+        display: none;
+        }
+
+
+}

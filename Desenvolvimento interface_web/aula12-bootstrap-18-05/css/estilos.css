@@ -1,0 +1,31 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.bg-pompeia {
+  background-color: #FE8400;
+}
+
+.navbar-light .menu1 li:last-child .nav-link {
+  color: green;
+}
+
+.maiusculas {
+  text-transform: uppercase;
+}
+
+.badge {
+  margin-left: -12px;
+}
+
+.m-bota {
+  margin-top: 13px;
+}
+
+.text-pompeia {
+  color: #FE8400;
+}
+
+.entre-letras {
+  letter-spacing: 5px;
+}

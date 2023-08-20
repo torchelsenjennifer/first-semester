@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Pousada Flor de Lótus</title>
+  <link rel="stylesheet" href="reservas.css">
+  <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+
+  <header>
+      
+    <div class="caixa">
+        <img src="imagens/logo.png" alt="Logo da Pousada" width="100" height="100" class="logo">
+    
+    <nav class="home">
+      <ul>
+        <li><a href="index.html">Pousada Recanto da Natureza</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+
+  <article>
+<div class="formularios">
+  <form>
+      <div class="bloco1">
+          <h2>RESERVA</h2>
+
+          <div>
+              <label for="inputNome">Nome</label>
+              <input type="text" id="inputNome">
+          </div>
+          <div>
+              <label for="inputCPF">CPF</label>
+              <input type="number" id="inputCPF" >
+          </div>
+          <div>
+            <label for="inputCidade">Quantidade de dias</label>
+            <select id="inputCidade">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+            </select>
+        </div> 
+          <div>
+              <label for="inputCidade">Tipo de Quarto</label>
+              <select id="inputCidade">
+                <option>Quarto com varanda</option>
+                <option>Quarto com Suíte</option>
+                <option>Quarto com Lareira</option>
+            </select>
+          </div>
+      </div>
+      <div class="bloco2">
+          <div>
+              <h2>FORMA DE PAGAMENTO</h2>
+              <div role="group">
+                  <input type="radio" name="btnradio" id="btnradio1" autocomplete="off" checked="">
+                  <label for="btnradio1">Cartão de Crédito</label>
+                  <input type="radio" name="btnradio" id="btnradio2" autocomplete="off">
+                  <label for="btnradio2">Boleto Bancário</label>
+              </div>
+              <div id="formaPagamentoConteudo">
+                  <div id="nav-cartao" role="tabpanel">
+                      <div>
+                          <label for="inputNomeCartao">Nome no Cartão</label>
+                          <input type="text" id="inputNomeCartao">
+                      </div>
+                      
+                      <div>
+                          <label for="inputNumeroCartao">Número do Cartão</label>
+                          <input type="number" id="inputNumeroCartao">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div>
+              <button class="btn-contratar" type="submit">Reservar?</button>
+          </div>
+      </div>
+  </form>
+</article>
+  <footer>
+    <img src="img/IconPousadaFlorDeLotus.4ca6fe49.png" alt="logo rodapé">
+  </footer>
+
+
+</body>
+</div>
